@@ -1,1 +1,136 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/*My Color Palette:
+* Lightest:         #f1faee
+* Dark Blue:        #1d3557
+* Light Blue:       #a8dadc
+* Red:              #e63946
+*/
+
+.bg-info {
+  background-color: #a8dadc !important; /* Light blue for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #1d3557; /* Dark green for brand name & nav links for visibility */
+}
+
+.navbar-brand {
+  font-family: "Poller One", sans-seri;
+  font-size: 2.25rem;
+}
+
+.container {
+  color: #1d3557;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.card-body {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.form-control {
+  border: 1px solid;
+}
+
+.btn-info {
+  color: #f1faee; /* Lightest shade for text on info button for contrast */
+  background-color: #a8dadc; /* Light green for button background */
+  border-color: #457b9d; /* Dark green for button border */
+}
+
+.form-control {
+  background-color: #f1faee;
+}
+
+.btn {
+  background: #f1faee;
+  border-color: #457b9d;
+  color: #e63946;
+}
+
+.btn:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.btn.btn-outline-primary {
+  background-color: #f1faee;
+  border-color: #457b9d;
+  color: #e63946;
+  border-width: 1px;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus {
+  background-color: #e63946;
+  color: #f1faee;
+  border-color: #e63946;
+}
+
+.btn-check:checked + .btn.btn-outline-primary,
+.btn-check:active + .btn.btn-outline-primary,
+.btn.btn-outline-primary.active,
+.btn.btn-outline-primary.show {
+  background-color: #e63946;
+  color: #f1faee;
+  border-color: #e63946;
+}
+
+.btn-primary:hover {
+  color: #f1faee;
+  font-size: 150%;
+  background-color: #1d3557;
+  margin-top: 12px;
+}
+
+.btn-primary {
+  color: #f1faee;
+  font-size: 150%;
+  background-color: #e63946;
+  margin-top: 12px;
+  margin-right: 50px;
+}
+
+#sumbit {
+  width: 50%;
+}
+
+input[type="radio"]:checked {
+  accent-color: #e63946;
+}
+
+.dropdown-menu {
+  background-color: #f1faee;
+}
+
+.dropdown-item:hover {
+  color: #f1faee;
+  background-color: #1d3557;
+}
+
+.form-group {
+  color: #1d3557;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+.text-body {
+  margin-bottom: 8px;
+}
+
+.material-icons {
+  margin-top: 0%;
+  color: #e63946;
+}
